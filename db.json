@@ -1,0 +1,43 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "name": "some restaurant",
+      "email": "restaurant@omail.com",
+      "mobile": "458-4587-125",
+      "address": "dallas, texas",
+      "services": "pizza"
+    },
+    {
+      "id": 3,
+      "name": "another restaurant",
+      "email": "restaurant@ymail.com",
+      "mobile": "458-5284-963",
+      "address": "illinois",
+      "services": "lasagna"
+    },
+    {
+      "id": 4,
+      "name": "another restaurant",
+      "email": "restaurant@zmail.com",
+      "mobile": "485-9856-965",
+      "address": "Minnesota",
+      "services": "big mac"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
