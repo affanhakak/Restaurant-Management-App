@@ -46,6 +46,29 @@
       "services": "dd"
     }
   ],
+  "signup": [
+    {
+      "name": "Affan",
+      "email": "ashawesome764@gmail.com",
+      "mobile": "9419033266",
+      "password": "12345678",
+      "id": 1
+    },
+    {
+      "name": "Faisal",
+      "email": "faisal@outlook.com",
+      "mobile": "7006080369",
+      "password": "1234567890",
+      "id": 2
+    }
+  ],
+  "login": [
+    {
+      "email": "faisal@outlook.com",
+      "password": "1234567890",
+      "id": 1
+    }
+  ],
   "comments": [
     {
       "id": 1,
