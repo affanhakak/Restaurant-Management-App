@@ -28,6 +28,22 @@
       "mobile": "485-9856-965",
       "address": "Minnesota",
       "services": "big mac"
+    },
+    {
+      "id": 5,
+      "name": "Affan's Restaurant",
+      "email": "restaurant@wmail.com",
+      "mobile": "485-9852-635",
+      "address": "dc",
+      "services": "subway"
+    },
+    {
+      "id": 6,
+      "name": "Restaurant 2",
+      "email": "djuih",
+      "mobile": "4545",
+      "address": "sidoi",
+      "services": "dd"
     }
   ],
   "comments": [
