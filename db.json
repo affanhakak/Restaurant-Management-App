@@ -60,13 +60,13 @@
       "mobile": "7006080369",
       "password": "1234567890",
       "id": 2
-    }
-  ],
-  "login": [
+    },
     {
-      "email": "faisal@outlook.com",
+      "name": "Peter Parker",
+      "email": "peterparker@marvels.com",
+      "mobile": "758-9859-968",
       "password": "1234567890",
-      "id": 1
+      "id": 3
     }
   ],
   "comments": [

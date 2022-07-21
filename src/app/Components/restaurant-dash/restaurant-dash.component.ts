@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder } from '@angular/forms';
+import { Router } from '@angular/router';
 import { Restaurant } from 'src/app/Model/restaurant.model';
 import { ApiService } from 'src/app/shared/api.service';
 
@@ -19,7 +20,11 @@ export class RestaurantDashComponent implements OnInit {
 
   public showUpdateButton!: boolean;
 
-  constructor(private formBuilder: FormBuilder, private api: ApiService) {}
+  constructor(
+    private formBuilder: FormBuilder,
+    private api: ApiService,
+    private router: Router
+  ) {}
 
   ngOnInit(): void {
     this.formValue = this.formBuilder.group({
@@ -101,5 +106,10 @@ export class RestaurantDashComponent implements OnInit {
         this.formValue.reset();
         this.getData();
       });
+  }
+
+  logout() {
+    alert('Are you sure, you want to logout');
+    this.router.navigate(['login']);
   }
 }

@@ -25,16 +25,24 @@ export class LoginComponent implements OnInit {
   }
 
   login() {
-    this.http
-      .post<any>('http://localhost:3000/login', this.loginForm.value)
-      .subscribe(
-        (res) => {
+    this.http.get<any>('http://localhost:3000/signup').subscribe(
+      (res) => {
+        const user = res.find((a: any) => {
+          return (
+            a.email === this.loginForm.value.email &&
+            a.password === this.loginForm.value.password
+          );
+        });
+        if (user) {
           this.loginForm.reset();
           this.router.navigate(['restaurant']);
-        },
-        (err) => {
-          console.log(err);
+        } else {
+          alert('details dont match');
         }
-      );
+      },
+      (err) => {
+        console.log(err);
+      }
+    );
   }
 }
