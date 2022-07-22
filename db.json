@@ -2,48 +2,43 @@
   "posts": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Restaurant - A ",
+      "email": "restaurant-a@amail.com",
+      "mobile": "123-4567-890",
+      "address": "NY",
+      "services": "Lasagna"
     },
     {
       "id": 2,
-      "name": "some restaurant",
-      "email": "restaurant@omail.com",
-      "mobile": "458-4587-125",
-      "address": "dallas, texas",
-      "services": "pizza"
+      "name": "Restaurant - B",
+      "email": "restaurant-b@bmail.com",
+      "mobile": "987-6543-210",
+      "address": "Texas",
+      "services": "Sphagetti"
     },
     {
       "id": 3,
-      "name": "another restaurant",
-      "email": "restaurant@ymail.com",
-      "mobile": "458-5284-963",
-      "address": "illinois",
-      "services": "lasagna"
+      "name": "Restaurant - C",
+      "email": "restaurant-c@cmail.com",
+      "mobile": "654-9871-320",
+      "address": "Illinois",
+      "services": "Veg Rolls"
     },
     {
       "id": 4,
-      "name": "another restaurant",
-      "email": "restaurant@zmail.com",
-      "mobile": "485-9856-965",
-      "address": "Minnesota",
-      "services": "big mac"
+      "name": "Restaurant - D",
+      "email": "restaurant-d@dmail.com",
+      "mobile": "321-5896-701",
+      "address": "Chicago",
+      "services": "Pizza"
     },
     {
       "id": 5,
-      "name": "Affan's Restaurant",
-      "email": "restaurant@wmail.com",
-      "mobile": "485-9852-635",
-      "address": "dc",
-      "services": "subway"
-    },
-    {
-      "id": 6,
-      "name": "Restaurant 2",
-      "email": "djuih",
-      "mobile": "4545",
-      "address": "sidoi",
-      "services": "dd"
+      "name": "Restaurant - E ",
+      "email": "restaurant-e@email.com",
+      "mobile": "987-6541-320",
+      "address": "Minnesota",
+      "services": "Big Mac"
     }
   ],
   "signup": [
@@ -53,29 +48,9 @@
       "mobile": "9419033266",
       "password": "12345678",
       "id": 1
-    },
-    {
-      "name": "Faisal",
-      "email": "faisal@outlook.com",
-      "mobile": "7006080369",
-      "password": "1234567890",
-      "id": 2
-    },
-    {
-      "name": "Peter Parker",
-      "email": "peterparker@marvels.com",
-      "mobile": "758-9859-968",
-      "password": "1234567890",
-      "id": 3
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }
